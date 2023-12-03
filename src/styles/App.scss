@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    font-family: 'Indie Flower', cursive, sans-serif;
+    background-color: azure;
+}
+.h2filter{
+display: flex;
+justify-content: center;
+padding: 1rem;
+}
+
+
+.return{
+display: flex;
+text-decoration: none;
+color:deepskyblue;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+

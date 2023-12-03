@@ -1,0 +1,48 @@
+.ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    margin: 5rem;
+    
+
+}
+.card{
+    padding: 1rem 0 0.5rem 0;
+    width: 30rem;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 2.5rem;
+    border: solid 0.2rem #69e9e9;
+    text-align: center;
+    color: rgb(37, 139, 207);
+   
+}
+
+.item{
+
+    &__img{
+        border: solid 0.2rem #165959;
+        width: 13rem;
+    }
+
+    &__title{
+        font-size: 2.5rem;  
+    }
+    
+    &__fullLine{
+        font-size: 2rem;
+        color: black;
+    }
+
+    &__year{
+        font-size: 1.5rem;
+    }
+
+}

@@ -1,0 +1,42 @@
+.detail{ 
+    margin: auto;
+    padding: 1rem 0 0.5rem 0;
+    width: 100rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 2.5rem;
+    border: solid 0.2rem #69e9e9;
+    text-align: center;
+    color: rgb(37, 139, 207);
+    font-size: 2rem;
+
+    &__img{
+        border: solid 0.2rem #165959;
+        width: 30rem;
+    }
+    &__fullLine{
+        font-size: 3rem;
+        color: black;
+    }
+    &__timestamp{
+        color: grey;
+        font-size: 1.5rem;
+    }
+    &__director{
+        font-size: 2rem;
+    }
+    &__audio{
+        text-decoration: none;
+        color:rgb(88, 150, 192)
+    }
+    &__back{
+        text-decoration: none;
+        border-color: solid 0.5rem black;
+        color: grey;
+        font-size: 1.5rem;
+    }
+
+
+}
